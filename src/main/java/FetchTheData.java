@@ -12,7 +12,7 @@ public class FetchTheData {
             Statement statement = conn.createStatement();
             ResultSet rs = statement.executeQuery(query);
           while(rs.next()){
-              int id = rs.getInt("id");
+              int id = rs.getInt(1);
               String name = rs.getString("name");
               System.out.println("Id : "+id);
               System.out.println("Name : "+name);
