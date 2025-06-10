@@ -8,7 +8,7 @@ public class FetchTheData {
         try {
             Class.forName("org.postgresql.Driver");
             Connection conn = DriverManager.getConnection(url,user,passWord);
-
+   
             String query = "SELECT * from product";
             Statement statement = conn.createStatement();
 
