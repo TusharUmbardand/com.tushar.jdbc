@@ -32,7 +32,7 @@ public class BatchExecutionDemo {
 
             Statement statement = conn.createStatement();
 
-           
+
 
             conn.close();
 
