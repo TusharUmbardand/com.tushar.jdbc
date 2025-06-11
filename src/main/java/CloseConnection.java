@@ -22,6 +22,6 @@ public class CloseConnection {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        
+
     }
 }
