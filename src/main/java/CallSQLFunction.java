@@ -14,7 +14,7 @@ public class CallSQLFunction {
             ResultSet rs = statement.executeQuery();
             rs.next();
             int count = rs.getInt(1);
-            System.out.println("Total count of bad product : "+count);
+            System.out.println("Total count of  product : "+count);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
